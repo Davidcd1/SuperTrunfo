@@ -67,7 +67,8 @@ int main() {
     poder1 = pop1+area1+pib1+npt1+dpop1+ppc1;
 
     // Exibição dos Dados das Cartas:
-
+    // Compara os atributos das cartas e imprime o vencedor
+    
     printf("Comparação de Cartas:\n");
     printf("População: Carta ");
     if(pop1 > pop2){
