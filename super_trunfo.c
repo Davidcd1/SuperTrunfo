@@ -64,7 +64,7 @@ int main() {
     
     dpop1 = pop1 / area1;
     ppc1 = pib1 / pop1;
-    poder1 = pop1+area1+pib1+npt1+dpop1+ppc1;
+    poder1 = (pop1+area1+pib1+npt1+ppc1)-dpop1;
 
     // Exibição dos Dados das Cartas:
     // Compara os atributos das cartas e imprime o vencedor
